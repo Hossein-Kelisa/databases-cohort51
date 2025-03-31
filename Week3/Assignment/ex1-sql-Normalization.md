@@ -19,10 +19,16 @@
 
 In this table all columns "food_code" and "food_description"
 violate 1NF.
+dinner_date: It has inconsistent formats (e.g., 2020-03-15, 20-03-2020, Mar 25 '20). This makes it non-atomic and difficult to query.
 
 2. ### What entities do you recognize that could be extracted?
 
-No entity could be extracted.
+Member 
+Dinner 
+Venue 
+Food 
+Dinner-Member 
+Dinner-Food 
 
 3. ### Name all the tables and columns that would make a 3NF compliant solution.
 
