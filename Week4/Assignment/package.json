@@ -1,0 +1,18 @@
+{
+  "name": "ex-1",
+  "version": "1.0.0",
+  "main": "mongo.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "csv-parser": "^3.1.0",
+    "dotenv": "^16.4.7",
+    "mongodb": "^6.15.0"
+  }
+}
